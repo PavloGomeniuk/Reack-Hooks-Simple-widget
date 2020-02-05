@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap');
+
+.widget {
+    width: 400px;
+    margin: 50px auto;
+}
+
+.window:hover, .active{
+  border: 8px solid #1c3761;
+  background-color: #3e437a;
+  color:  white;
+}
+
+.window{
+    border-radius: 34px 34px 34px 34px;
+    border: 8px solid #4b7ed6;
+    text-align: center; 
+    padding: 30px;
+}
+
+.title{
+  font-family: 'Roboto Slab', serif;
+  font-size:  40px;
+}
+
+.company{
+  font-family: 'Teko', sans-serif;
+  font-size:  30px;
+}
+
+.status{
+  font-family: 'Kelly Slab', cursive;
+  font-size:  20px;
+}
+
+.img{
+  width:  200px;
+  height: 100px;
+  margin: 0 auto;  
+}
+
+.popover{
+  border-radius: 2px 2px 200px 2px;
+  border: 8px solid #8f132b;
+  padding:  40px;
+  display:  flex;
+  flex-direction:  column;
+  justify-content:  center; 
+  align-items:  center; 
+}
+
+.popover span{
+  font-family: 'Teko', sans-serif;
+  font-size:  30px;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding:  0;
+}
+
+ul li {
+  font-family: 'Kelly Slab', cursive;
+}
+
+input{
+  border-radius: 107px 107px 107px 107px;
+  border: 3px solid #591825;
+  padding-left: 5px;
+  height: 30px;
+  font-family: 'Kelly Slab', cursive;
+}
