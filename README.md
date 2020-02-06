@@ -1,5 +1,5 @@
 # React-Hooks
-Simple exampleof usage hooks andcss custom properties. 
+Simple exampleof usage hooks and css custom properties. 
 
 Used technology: React.
 
