@@ -31,18 +31,18 @@ function App() {
         <div className={'window'} onClick={()=>setEdit(!edit)}>
             <div className={'img'} style={{background: 'url('+product.img+') center/cover no-repeat'}}></div>
             <div>
-              <h3 className={'title'}>{product.title}</h3>
-              <h4 className={'company'}>{product.company}</h4>
-              <p className={'status'}>{product.status}</p>
+                <h3 className={'title'}>{product.title}</h3>
+                <h4 className={'company'}>{product.company}</h4>
+                <p className={'status'}>{product.status}</p>
             </div>
         </div>
        {edit &&(
              <div className={'popover'}>
                 <span>Title</span>
                 <input 
-                type="text" 
-                value={product.title} 
-                onChange={e=> updateProduct ("title", e.target.value)} 
+                    type="text" 
+                    value={product.title} 
+                    onChange={e=> updateProduct ("title", e.target.value)} 
                 />                    
                 <span>Company</span>
                 <input 
@@ -52,7 +52,7 @@ function App() {
                     />
                 <span>Status</span>
                 <ul>
-                  {statusList.map(status => 
+                    {statusList.map(status => 
                     <li className={product.status === status ? 'active' : ''} 
                         key={status} 
                         onClick= {()=> updateProduct( "status", status)}>
@@ -60,7 +60,7 @@ function App() {
                     </li>)}
                 </ul>
               </div>
-          )}
+        )}
     </div>
   );
 }
